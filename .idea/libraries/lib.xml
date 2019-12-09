@@ -1,0 +1,58 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/common/network-common/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/common/network-common/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/common/network-shuffle/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/common/network-shuffle/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/common/network-yarn/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/common/sketch/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/common/tags/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/common/tags/src/main/scala" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/common/tags/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/common/unsafe/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/common/unsafe/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/core/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/core/src/main/scala" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/core/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/examples/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/external/flume/src/main/scala" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/external/flume/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/external/kafka-0-10-sql/src/main/scala" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/external/kafka-0-10/src/main/scala" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/external/kafka-0-10/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/external/kafka-0-8/src/main/scala" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/external/kafka-0-8/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/external/kinesis-asl/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/external/kinesis-asl/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/graphx/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/graphx/src/main/scala" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/launcher/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/launcher/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/mllib/src/main/scala" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/mllib/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/sql/catalyst/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/sql/catalyst/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/sql/core/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/sql/core/src/main/scala" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/sql/core/src/test/gen-java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/sql/core/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/sql/hive-thriftserver/src/gen/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/sql/hive-thriftserver/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/sql/hive/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/sql/hive/src/main/scala" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/sql/hive/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/streaming/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/streaming/src/main/scala" />
+      <root url="file://$PROJECT_DIR$/../../doc/spark2.2/spark_base/003_software/spark-2.2.1/spark-2.2.1/streaming/src/test/java" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

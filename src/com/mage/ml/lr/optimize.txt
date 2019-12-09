@@ -1,0 +1,53 @@
+Linear  Regression 线性回归 : 预测
+
+1，设置截距W0，因为如果不设置W0就会使得分界一定会穿过原点，这样就会使得计算的模型受到很大的局限
+    lr.setFitIntercept(true)
+2. 设置收敛的值，越小结果越精确，但迭代次数也越大，花费更多时间
+    lr.setTol(1E-6)
+3. 设置最大迭代次数，即使收敛值还没达到要求的精确度，也会停止迭代计算
+    lr.setMaxIter(numIterations)
+
+Logistic Regression 逻辑回归: 是一种线性有监督的分类模型
+
+
+4. 线性不可分，升高维度，方式方法让已有的维度俩俩相乘来构建更多的维度
+   df.map(row => {
+               //x:Row
+               val label = row.getAs[Double]("label")
+               val features: SparseVector = row.getAs[SparseVector]("features")
+
+               val array = features.toArray
+               //升维，生成第三维度，第三维度的值，可根据业务经验来定。
+               val convertFeatures = Vectors.dense(array(0),array(1),array(0)*array(1))
+
+               LabeledPoint(label, convertFeatures)
+   })
+
+
+
+5，Threshold阈值在LR里面默认是根据0.5来进行二分类的，我们可以为了去规避一些风险，我们可以去掉阈值，
+    这样最后LR给的结果就是0到1之间的一个分值，我们可以根据分值，自己来定到底属于哪个类别
+    model.setThreshold(0.3)
+
+6，鲁棒性调优，鲁棒性：模型的通用性，举一反三的能力，推广能力，泛化能力
+    牺牲正确率，提高推广能力
+    尽可能在保证正确率的情况下，使得Wn越小越好！
+    好到个什么程度？
+    事实上人们定义了L1正则化和L2正则化，然后重新误差函数让算法去减小误差的同时顺手减小L2L1或
+    L1：有的趋近于1，有的趋近于0，稀疏编码，降维
+    L2：整体的W同时变小，岭回归
+
+    设置正则化: 0代表L2正则化  1代表L1正则化，0~1之间则会结合使用两种正则化
+    lr.setElasticNetParam(1)
+
+    这块设置的是我们的lambda,惩罚系数，越大越看重这个模型的推广能力,一般不会超过1
+    lr.setRegParam(0.4)
+
+7. 数值优化，标准差归一化，抗干扰能力强，会考虑到一组数里面的所有数据，就是每个数去除以标准差
+    带来的好处就是会使得各个W基本数量级一致
+
+     new StandardScaler().setWithStd(true)
+
+8. 数值优化，均值归一化，让找到最优的Wi速度变快，让各个维度的数据有正有负，就会使得各个W在调整的时候有的变大有的变小
+     new StandardScaler().setWithMean(true)
+
